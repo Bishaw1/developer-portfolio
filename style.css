@@ -2,9 +2,14 @@ body{font-family: 'Poppins', sans-serif;
 margin: 0;}
 h1{font-size: 50px;}
 .aqua-color{color: aqua;}
+h2{
+    font-size: 30px;
+}
 
-section{display: flex;
-margin-bottom: 150px;} /*flex mane set the flexible length on flexible items */
+.flexiable-container
+{display: flex;
+margin-bottom: 150px;} 
+/*flex mane set the flexible length on flexible items */
 .half-width{width: 50%;
 padding-left: 2%;}/* half-width:50% diye left side TAXT and right side er IMG taa jaiga nibe taa divide kora hoice 
 and padding-left:2% diye text ta k halka left side theke right side anna hoice */
@@ -33,3 +38,31 @@ background-repeat: no-repeat;
     background-position: right;
 }
 .dream-big-des{padding-right: 100px;}
+
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 15px;
+
+
+    box-shadow: 10px 10px 40px gray;
+    
+}
+    
+#Full-Stack-Developer{
+    border-left: 7px solid tomato;
+
+}
+#Baby-Web-Developer{
+    border-left: 7px solid rgb(0, 21, 255);
+
+}
+footer{text-align: center;}
