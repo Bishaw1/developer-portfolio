@@ -1,4 +1,5 @@
-body{font-family: 'Poppins', sans-serif;}
+body{font-family: 'Poppins', sans-serif;
+margin: 0;}
 h1{font-size: 50px;}
 .aqua-color{color: aqua;}
 
@@ -18,3 +19,10 @@ and padding-left:2% diye text ta k halka left side theke right side anna hoice *
     
 }
  /*text-decoration:none;  diye anchor tag use korar jonno  "HIRE ME BTN" er niche Underline asche ota remove korar kaj kora hoice  */
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    
+background-repeat: no-repeat;
+
+}
